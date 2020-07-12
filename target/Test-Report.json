@@ -1,0 +1,220 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-12T07:48:50.271Z",
+        "line": 11,
+        "name": "Test Login eith valid credentials",
+        "description": "",
+        "id": "test-facebook-smoke-scenario;test-login-eith-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2696372000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Firefox and start application",
+            "match": {
+              "location": "stepdefs.facebookSteps.open_firefox_and_start_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 803000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter valid \"harshb44@gmail.com\" and valid \"harshb44@gmail\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"harshb44@gmail.com\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"harshb44@gmail\"",
+                  "offset": 45
+                }
+              ],
+              "location": "stepdefs.facebookSteps.i_enter_valid_and_valid(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 102656000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should be able to login successfully",
+            "match": {
+              "location": "stepdefs.facebookSteps.user_should_be_able_to_login_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 123708000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The browser will close",
+            "match": {
+              "location": "stepdefs.facebookSteps.theBrowserWillClose()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-12T07:48:53.257Z",
+        "line": 12,
+        "name": "Test Login eith valid credentials",
+        "description": "",
+        "id": "test-facebook-smoke-scenario;test-login-eith-valid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3592355000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Firefox and start application",
+            "match": {
+              "location": "stepdefs.facebookSteps.open_firefox_and_start_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 516000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter valid \"hello2323@rediffmail.com\" and valid \"hehe\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hello2323@rediffmail.com\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"hehe\"",
+                  "offset": 51
+                }
+              ],
+              "location": "stepdefs.facebookSteps.i_enter_valid_and_valid(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 134516000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should be able to login successfully",
+            "match": {
+              "location": "stepdefs.facebookSteps.user_should_be_able_to_login_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 122267000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The browser will close",
+            "match": {
+              "location": "stepdefs.facebookSteps.theBrowserWillClose()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-12T07:48:57.114Z",
+        "line": 13,
+        "name": "Test Login eith valid credentials",
+        "description": "",
+        "id": "test-facebook-smoke-scenario;test-login-eith-valid-credentials;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2146251000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Firefox and start application",
+            "match": {
+              "location": "stepdefs.facebookSteps.open_firefox_and_start_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 317000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter valid \"lolol232@gmail.com\" and valid \"lolol\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lolol232@gmail.com\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"lolol\"",
+                  "offset": 45
+                }
+              ],
+              "location": "stepdefs.facebookSteps.i_enter_valid_and_valid(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 134093000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should be able to login successfully",
+            "match": {
+              "location": "stepdefs.facebookSteps.user_should_be_able_to_login_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 122274000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The browser will close",
+            "match": {
+              "location": "stepdefs.facebookSteps.theBrowserWillClose()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Facebook smoke scenario",
+    "description": "",
+    "id": "test-facebook-smoke-scenario",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/stepdefs/facebook.feature",
+    "tags": []
+  }
+]
