@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-07-12T07:48:50.271Z",
+        "start_timestamp": "2020-07-12T08:09:06.808Z",
         "line": 11,
         "name": "Test Login eith valid credentials",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2696372000,
+              "duration": 2544022000,
               "status": "passed"
             },
             "line": 4,
@@ -25,20 +25,20 @@
           },
           {
             "result": {
-              "duration": 803000,
+              "duration": 837000,
               "status": "passed"
             },
             "line": 5,
-            "name": "I enter valid \"harshb44@gmail.com\" and valid \"harshb44@gmail\"",
+            "name": "I enter valid \"harshb@gmail.com\" and valid \"harshb44@gmail\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"harshb44@gmail.com\"",
+                  "val": "\"harshb@gmail.com\"",
                   "offset": 14
                 },
                 {
                   "val": "\"harshb44@gmail\"",
-                  "offset": 45
+                  "offset": 43
                 }
               ],
               "location": "stepdefs.facebookSteps.i_enter_valid_and_valid(java.lang.String,java.lang.String)"
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 102656000,
+              "duration": 84052000,
               "status": "passed"
             },
             "line": 6,
@@ -59,7 +59,7 @@
           },
           {
             "result": {
-              "duration": 123708000,
+              "duration": 169571000,
               "status": "passed"
             },
             "line": 7,
@@ -72,7 +72,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-07-12T07:48:53.257Z",
+        "start_timestamp": "2020-07-12T08:09:09.670Z",
         "line": 12,
         "name": "Test Login eith valid credentials",
         "description": "",
@@ -82,7 +82,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3592355000,
+              "duration": 2190610000,
               "status": "passed"
             },
             "line": 4,
@@ -94,7 +94,7 @@
           },
           {
             "result": {
-              "duration": 516000,
+              "duration": 413000,
               "status": "passed"
             },
             "line": 5,
@@ -116,7 +116,7 @@
           },
           {
             "result": {
-              "duration": 134516000,
+              "duration": 112915000,
               "status": "passed"
             },
             "line": 6,
@@ -128,7 +128,7 @@
           },
           {
             "result": {
-              "duration": 122267000,
+              "duration": 112890000,
               "status": "passed"
             },
             "line": 7,
@@ -141,7 +141,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-07-12T07:48:57.114Z",
+        "start_timestamp": "2020-07-12T08:09:12.094Z",
         "line": 13,
         "name": "Test Login eith valid credentials",
         "description": "",
@@ -151,7 +151,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2146251000,
+              "duration": 1960504000,
               "status": "passed"
             },
             "line": 4,
@@ -163,20 +163,20 @@
           },
           {
             "result": {
-              "duration": 317000,
+              "duration": 289000,
               "status": "passed"
             },
             "line": 5,
-            "name": "I enter valid \"lolol232@gmail.com\" and valid \"lolol\"",
+            "name": "I enter valid \"lolol232@\" and valid \"lolol\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"lolol232@gmail.com\"",
+                  "val": "\"lolol232@\"",
                   "offset": 14
                 },
                 {
                   "val": "\"lolol\"",
-                  "offset": 45
+                  "offset": 36
                 }
               ],
               "location": "stepdefs.facebookSteps.i_enter_valid_and_valid(java.lang.String,java.lang.String)"
@@ -185,7 +185,7 @@
           },
           {
             "result": {
-              "duration": 134093000,
+              "duration": 82483000,
               "status": "passed"
             },
             "line": 6,
@@ -197,7 +197,7 @@
           },
           {
             "result": {
-              "duration": 122274000,
+              "duration": 176927000,
               "status": "passed"
             },
             "line": 7,

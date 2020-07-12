@@ -8,6 +8,6 @@ Feature:Test Facebook smoke scenario
 
     Examples:
       |username |password |
-      |harshb44@gmail.com | harshb44@gmail |
+      |harshb@gmail.com | harshb44@gmail |
       | hello2323@rediffmail.com| hehe     |
-      | lolol232@gmail.com      | lolol    |
+      | lolol232@      | lolol    |
