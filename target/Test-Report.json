@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-07-12T08:09:06.808Z",
+        "start_timestamp": "2020-07-12T09:15:27.624Z",
         "line": 11,
         "name": "Test Login eith valid credentials",
         "description": "",
@@ -13,19 +13,19 @@
         "steps": [
           {
             "result": {
-              "duration": 2544022000,
+              "duration": 2967208451,
               "status": "passed"
             },
             "line": 4,
             "name": "Open Firefox and start application",
             "match": {
-              "location": "stepdefs.facebookSteps.open_firefox_and_start_application()"
+              "location": "facebookSteps.open_firefox_and_start_application()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 837000,
+              "duration": 2079510,
               "status": "passed"
             },
             "line": 5,
@@ -41,38 +41,38 @@
                   "offset": 43
                 }
               ],
-              "location": "stepdefs.facebookSteps.i_enter_valid_and_valid(java.lang.String,java.lang.String)"
+              "location": "facebookSteps.i_enter_valid_and_valid(String,String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 84052000,
+              "duration": 87474051,
               "status": "passed"
             },
             "line": 6,
             "name": "User should be able to login successfully",
             "match": {
-              "location": "stepdefs.facebookSteps.user_should_be_able_to_login_successfully()"
+              "location": "facebookSteps.user_should_be_able_to_login_successfully()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 169571000,
+              "duration": 131463437,
               "status": "passed"
             },
             "line": 7,
             "name": "The browser will close",
             "match": {
-              "location": "stepdefs.facebookSteps.theBrowserWillClose()"
+              "location": "facebookSteps.theBrowserWillClose()"
             },
             "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2020-07-12T08:09:09.670Z",
+        "start_timestamp": "2020-07-12T09:15:30.834Z",
         "line": 12,
         "name": "Test Login eith valid credentials",
         "description": "",
@@ -82,19 +82,19 @@
         "steps": [
           {
             "result": {
-              "duration": 2190610000,
+              "duration": 2224032899,
               "status": "passed"
             },
             "line": 4,
             "name": "Open Firefox and start application",
             "match": {
-              "location": "stepdefs.facebookSteps.open_firefox_and_start_application()"
+              "location": "facebookSteps.open_firefox_and_start_application()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 413000,
+              "duration": 1220116,
               "status": "passed"
             },
             "line": 5,
@@ -110,38 +110,38 @@
                   "offset": 51
                 }
               ],
-              "location": "stepdefs.facebookSteps.i_enter_valid_and_valid(java.lang.String,java.lang.String)"
+              "location": "facebookSteps.i_enter_valid_and_valid(String,String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 112915000,
+              "duration": 89460106,
               "status": "passed"
             },
             "line": 6,
             "name": "User should be able to login successfully",
             "match": {
-              "location": "stepdefs.facebookSteps.user_should_be_able_to_login_successfully()"
+              "location": "facebookSteps.user_should_be_able_to_login_successfully()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 112890000,
+              "duration": 131482383,
               "status": "passed"
             },
             "line": 7,
             "name": "The browser will close",
             "match": {
-              "location": "stepdefs.facebookSteps.theBrowserWillClose()"
+              "location": "facebookSteps.theBrowserWillClose()"
             },
             "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2020-07-12T08:09:12.094Z",
+        "start_timestamp": "2020-07-12T09:15:33.284Z",
         "line": 13,
         "name": "Test Login eith valid credentials",
         "description": "",
@@ -151,19 +151,19 @@
         "steps": [
           {
             "result": {
-              "duration": 1960504000,
+              "duration": 2112325670,
               "status": "passed"
             },
             "line": 4,
             "name": "Open Firefox and start application",
             "match": {
-              "location": "stepdefs.facebookSteps.open_firefox_and_start_application()"
+              "location": "facebookSteps.open_firefox_and_start_application()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 289000,
+              "duration": 1935191,
               "status": "passed"
             },
             "line": 5,
@@ -179,31 +179,31 @@
                   "offset": 36
                 }
               ],
-              "location": "stepdefs.facebookSteps.i_enter_valid_and_valid(java.lang.String,java.lang.String)"
+              "location": "facebookSteps.i_enter_valid_and_valid(String,String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 82483000,
+              "duration": 109776180,
               "status": "passed"
             },
             "line": 6,
             "name": "User should be able to login successfully",
             "match": {
-              "location": "stepdefs.facebookSteps.user_should_be_able_to_login_successfully()"
+              "location": "facebookSteps.user_should_be_able_to_login_successfully()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 176927000,
+              "duration": 114414307,
               "status": "passed"
             },
             "line": 7,
             "name": "The browser will close",
             "match": {
-              "location": "stepdefs.facebookSteps.theBrowserWillClose()"
+              "location": "facebookSteps.theBrowserWillClose()"
             },
             "keyword": "Then "
           }
