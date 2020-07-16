@@ -1,5 +1,6 @@
 package pages;
 
+import org.junit.Assert;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -8,6 +9,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 import static org.openqa.selenium.support.How.ID;
 
 public class loginPagePageFact {
@@ -26,8 +29,13 @@ public class loginPagePageFact {
     @FindBy(how= How.NAME,using = "password")
     WebElement txt_password;
 
-    @FindBy(how= How.XPATH,using = "//*[@id=\'main-view\']/div/div[2]/div[1]/div/button")
+    @FindBy(how= How.XPATH,using = "//*[@id=\'main-view\']/div/div/div[2]/div/div[5]/div[1]/div/div/button")
     WebElement btn_login;
+
+    @FindBy(how= How.XPATH,using = "//*[@id=\'main-view\']/div/div/div[2]/div/div[2]/div/div")
+    WebElement alert_login;
+
+//*[@id="main-view"]/div/div/div[2]/div/div[1]/div/div
 
 
     public loginPagePageFact(WebDriver ddriver){
@@ -60,8 +68,31 @@ public class loginPagePageFact {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        Alert alt=driver.switchTo().alert();
+        String actual_text=alert_login.getText();
+        /*Alert alt=driver.switchTo().alert();
+        String alerttext=alt.getText();
+        String expected_text="login successful";
+        Assert.assertEquals(alerttext,expected_text);
+
         alt.accept();
+
+         */
+
+        //String actual_text=alert_login.getText();
+        String expected_text=" login successful";
+        System.out.println("*******"+actual_text+"**********");
+        System.out.println(expected_text);
+        //Assert.assertEquals(actual_text,expected_text);
+        assertTrue(actual_text.contains("login successful"));
+
+
+
+        //Alert alt=driver.switchTo().alert();
+        //alt.dismiss();
+
+
+
+
     }
 
 }

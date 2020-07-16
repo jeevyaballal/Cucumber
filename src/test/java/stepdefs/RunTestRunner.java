@@ -11,7 +11,11 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
         features = "src/test/resources/stepdefs",
         glue = {"stepdefs"},
-        plugin = {"html:target/cucumber-html-report.html","json:target/Test-Report.json","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"})
+        plugin = {"html:target/cucumber-html-report.html","json:target/Test-Report.json","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
+    tags = {"not @Sanity"}
+
+)
+
 
 public class RunTestRunner {
 }

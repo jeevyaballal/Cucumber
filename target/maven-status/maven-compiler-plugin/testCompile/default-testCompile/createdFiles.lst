@@ -1,6 +1,8 @@
-stepdefs/RunTestRunner.class
 stepdefs/facebookSteps_POM.class
-stepdefs/facebookSteps.class
+stepdefs/RegistrationFeatureDefinitions.class
+pages/RegistrationPage.class
 pages/loginPagePageFact.class
 stepdefs/facebookSteps_POM_PagefACT.class
 pages/loginPage.class
+stepdefs/RunTestRunner.class
+stepdefs/facebookSteps.class

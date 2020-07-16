@@ -23,6 +23,11 @@ public class facebookSteps_POM_PagefACT {
         driver=new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("http://localhost:3000/");
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
         //throw new io.cucumber.java.PendingException();
     }
@@ -30,7 +35,7 @@ public class facebookSteps_POM_PagefACT {
 
 
 
-    @When("I enter valid username and valid password")
+   /* @When("I enter valid username and valid password")
     public void i_enter_valid_username_and_valid_password() {
         // Write code here that turns the phrase above into concrete actions
 
@@ -39,7 +44,7 @@ public class facebookSteps_POM_PagefACT {
         //driver.findElement(By.id("email")).sendKeys("harshb44@gmail.com");
         //driver.findElement(By.id("pass")).sendKeys("harshb44");
         //throw new io.cucumber.java.PendingException();
-    }
+    }  */
 
     @When("I enter valid {string} and valid {string}")
     public void i_enter_valid_and_valid(String uname, String pass) {
