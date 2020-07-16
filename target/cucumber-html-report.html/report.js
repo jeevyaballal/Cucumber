@@ -38,20 +38,8 @@ formatter.examples({
     },
     {
       "cells": [
-        "harshb@gmail.com",
-        "harshb44@gmail"
-      ]
-    },
-    {
-      "cells": [
-        "hello2323@rediffmail.com",
-        "hehe"
-      ]
-    },
-    {
-      "cells": [
-        "lolol232@",
-        "lolol"
+        "jeevya",
+        "jeevya"
       ]
     }
   ]
@@ -66,17 +54,17 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "facebookSteps.open_firefox_and_start_application()"
+  "location": "facebookSteps_POM_PagefACT.open_firefox_and_start_application()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I enter valid \"harshb@gmail.com\" and valid \"harshb44@gmail\"",
+  "name": "I enter valid \"jeevya\" and valid \"jeevya\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "facebookSteps.i_enter_valid_and_valid(String,String)"
+  "location": "facebookSteps_POM_PagefACT.i_enter_valid_and_valid(String,String)"
 });
 formatter.result({
   "status": "passed"
@@ -86,7 +74,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "facebookSteps.user_should_be_able_to_login_successfully()"
+  "location": "facebookSteps_POM_PagefACT.user_should_be_able_to_login_successfully()"
 });
 formatter.result({
   "status": "passed"
@@ -96,97 +84,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "facebookSteps.theBrowserWillClose()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "Test Login eith valid credentials",
-  "description": "",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "name": "Open Firefox and start application",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "facebookSteps.open_firefox_and_start_application()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I enter valid \"hello2323@rediffmail.com\" and valid \"hehe\"",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "facebookSteps.i_enter_valid_and_valid(String,String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User should be able to login successfully",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "facebookSteps.user_should_be_able_to_login_successfully()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "The browser will close",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "facebookSteps.theBrowserWillClose()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "Test Login eith valid credentials",
-  "description": "",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "name": "Open Firefox and start application",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "facebookSteps.open_firefox_and_start_application()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I enter valid \"lolol232@\" and valid \"lolol\"",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "facebookSteps.i_enter_valid_and_valid(String,String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User should be able to login successfully",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "facebookSteps.user_should_be_able_to_login_successfully()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "The browser will close",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "facebookSteps.theBrowserWillClose()"
+  "location": "facebookSteps_POM_PagefACT.theBrowserWillClose()"
 });
 formatter.result({
   "status": "passed"

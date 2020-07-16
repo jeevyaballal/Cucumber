@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-07-12T09:15:27.624Z",
+        "start_timestamp": "2020-07-16T04:29:39.589Z",
         "line": 11,
         "name": "Test Login eith valid credentials",
         "description": "",
@@ -13,197 +13,59 @@
         "steps": [
           {
             "result": {
-              "duration": 2967208451,
+              "duration": 2167340548,
               "status": "passed"
             },
             "line": 4,
             "name": "Open Firefox and start application",
             "match": {
-              "location": "facebookSteps.open_firefox_and_start_application()"
+              "location": "facebookSteps_POM_PagefACT.open_firefox_and_start_application()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 2079510,
+              "duration": 2241193993,
               "status": "passed"
             },
             "line": 5,
-            "name": "I enter valid \"harshb@gmail.com\" and valid \"harshb44@gmail\"",
+            "name": "I enter valid \"jeevya\" and valid \"jeevya\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"harshb@gmail.com\"",
+                  "val": "\"jeevya\"",
                   "offset": 14
                 },
                 {
-                  "val": "\"harshb44@gmail\"",
-                  "offset": 43
+                  "val": "\"jeevya\"",
+                  "offset": 33
                 }
               ],
-              "location": "facebookSteps.i_enter_valid_and_valid(String,String)"
+              "location": "facebookSteps_POM_PagefACT.i_enter_valid_and_valid(String,String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 87474051,
+              "duration": 2077863198,
               "status": "passed"
             },
             "line": 6,
             "name": "User should be able to login successfully",
             "match": {
-              "location": "facebookSteps.user_should_be_able_to_login_successfully()"
+              "location": "facebookSteps_POM_PagefACT.user_should_be_able_to_login_successfully()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 131463437,
+              "duration": 114850701,
               "status": "passed"
             },
             "line": 7,
             "name": "The browser will close",
             "match": {
-              "location": "facebookSteps.theBrowserWillClose()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-07-12T09:15:30.834Z",
-        "line": 12,
-        "name": "Test Login eith valid credentials",
-        "description": "",
-        "id": "test-facebook-smoke-scenario;test-login-eith-valid-credentials;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2224032899,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "Open Firefox and start application",
-            "match": {
-              "location": "facebookSteps.open_firefox_and_start_application()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1220116,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I enter valid \"hello2323@rediffmail.com\" and valid \"hehe\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"hello2323@rediffmail.com\"",
-                  "offset": 14
-                },
-                {
-                  "val": "\"hehe\"",
-                  "offset": 51
-                }
-              ],
-              "location": "facebookSteps.i_enter_valid_and_valid(String,String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 89460106,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "User should be able to login successfully",
-            "match": {
-              "location": "facebookSteps.user_should_be_able_to_login_successfully()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 131482383,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "The browser will close",
-            "match": {
-              "location": "facebookSteps.theBrowserWillClose()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-07-12T09:15:33.284Z",
-        "line": 13,
-        "name": "Test Login eith valid credentials",
-        "description": "",
-        "id": "test-facebook-smoke-scenario;test-login-eith-valid-credentials;;4",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2112325670,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "Open Firefox and start application",
-            "match": {
-              "location": "facebookSteps.open_firefox_and_start_application()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1935191,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I enter valid \"lolol232@\" and valid \"lolol\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"lolol232@\"",
-                  "offset": 14
-                },
-                {
-                  "val": "\"lolol\"",
-                  "offset": 36
-                }
-              ],
-              "location": "facebookSteps.i_enter_valid_and_valid(String,String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 109776180,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "User should be able to login successfully",
-            "match": {
-              "location": "facebookSteps.user_should_be_able_to_login_successfully()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 114414307,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "The browser will close",
-            "match": {
-              "location": "facebookSteps.theBrowserWillClose()"
+              "location": "facebookSteps_POM_PagefACT.theBrowserWillClose()"
             },
             "keyword": "Then "
           }
