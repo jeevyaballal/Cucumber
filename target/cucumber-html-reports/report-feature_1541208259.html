@@ -76,7 +76,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>Selenium-Cucumber-example</td>
         <td>1</td>
-      <td>16 Jul 2020, 21:08</td>
+      <td>17 Jul 2020, 20:21</td>
     </tr>
   </tbody>
 </table>
@@ -129,19 +129,19 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">Register</td>
-          <td      class="passed"    >7</td>
-          <td >0</td>
-          <td >0</td>
+          <td      class="passed"    >1</td>
+          <td      class="failed"    >1</td>
+          <td     class="skipped"   >5</td>
           <td >0</td>
           <td >0</td>
           <td class="total">7</td>
 
-          <td  class="passed"    >1</td>
           <td >0</td>
+          <td  class="failed"    >1</td>
           <td class="total">1</td>
 
-          <td class="duration" data-value="9292188110">9.292</td>
-          <td class="passed">Passed</td>
+          <td class="duration" data-value="6078632684">6.078</td>
+          <td class="failed">Failed</td>
         </tr>
         </tbody>
 
@@ -173,7 +173,7 @@ $(document).ready(function() {
 </div>
 
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Feature</span>
   <span class="name">Register</span>
 
@@ -191,12 +191,12 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">9.292</span>
+  <span class="lead-duration duration">6.078</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Scenario Outline</span>
   <span class="name">User provided valid data</span>
 
@@ -207,16 +207,16 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-1" class="collapse collapsable-details ">
+  <div id="element-1" class="collapse collapsable-details  in ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-2">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-2">
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -226,7 +226,7 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-2" class="inner-level collapse collapsable-details ">
+  <div id="steps-2" class="inner-level collapse collapsable-details  in ">
       <div class="step">
 
 
@@ -234,7 +234,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">Browser is opened and site is loaded</span>
 
-  <span class="lead-duration duration">5.622</span>
+  <span class="lead-duration duration">6.044</span>
 
 </div>
 
@@ -257,11 +257,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-Then passed">
+<div class="brief step-name-Then failed">
   <span class="keyword indention">Then</span>
   <span class="name">User inputs username as <span class="argument">&quot;a&quot;</span></span>
 
-  <span class="lead-duration duration">0.137</span>
+  <span class="lead-duration duration">0.031</span>
 
 </div>
 
@@ -269,6 +269,43 @@ $(document).ready(function() {
 
 
 
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-3">
+          <a>org.openqa.selenium.NoSuchElementException:</a>
+      </div>
+      <div id="msg-3" class="collapse collapsable-details  in ">
+        <pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id='main-view']/div/div/div[2]/div/div[5]/div[2]/div/div/input[1]&quot;}
+  (Session info: chrome=84.0.4147.89)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PUN-LAP-DEV10.local', ip: 'fe80:0:0:0:1882:c122:8bac:37d1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/lr/5hgn8qss1cb...}, goog:chromeOptions: {debuggerAddress: localhost:57165}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3330a292180ca12c68478077d4eca39d
+*** Element info: {Using=xpath, value=//*[@id='main-view']/div/div/div[2]/div/div[5]/div[2]/div/div/input[1]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at pages.RegistrationPage.setUsernameField(RegistrationPage.java:52)
+	at stepdefs.RegistrationFeatureDefinitions.user_inputs_username_as(RegistrationFeatureDefinitions.java:22)
+	at &#10045;.User inputs username as &quot;a&quot;(file:src/test/resources/stepdefs/Registerfeature.feature:5)
+</pre>
+      </div>
+    </div>
+  </div>
 
 
 
@@ -284,11 +321,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-And passed">
+<div class="brief step-name-And skipped">
   <span class="keyword indention">And</span>
   <span class="name">User inputs phone number as <span class="argument">&quot;9898989898&quot;</span></span>
 
-  <span class="lead-duration duration">0.098</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -311,11 +348,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-And passed">
+<div class="brief step-name-And skipped">
   <span class="keyword indention">And</span>
   <span class="name">User inputs location</span>
 
-  <span class="lead-duration duration">0.121</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -338,11 +375,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-And passed">
+<div class="brief step-name-And skipped">
   <span class="keyword indention">And</span>
   <span class="name">User inputs password as <span class="argument">&quot;a&quot;</span></span>
 
-  <span class="lead-duration duration">0.073</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -365,11 +402,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-Then passed">
+<div class="brief step-name-Then skipped">
   <span class="keyword indention">Then</span>
   <span class="name">Press Register button</span>
 
-  <span class="lead-duration duration">3.104</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
@@ -392,11 +429,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-Then passed">
+<div class="brief step-name-Then skipped">
   <span class="keyword indention">Then</span>
   <span class="name">Username should load on page</span>
 
-  <span class="lead-duration duration">0.134</span>
+  <span class="lead-duration duration">0.000</span>
 
 </div>
 
