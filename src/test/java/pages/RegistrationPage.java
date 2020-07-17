@@ -59,7 +59,6 @@ public class RegistrationPage {
 
     public void setUsernameField(String username) {
 
-
         webDriver.findElement(usernameField).sendKeys(username);
     }
 
