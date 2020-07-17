@@ -1,0 +1,33 @@
+language: java
+
+os: osx
+osx_image: xcode9.3
+
+#cache:
+#  - directories:
+#      - $HOME/.m2
+addons:
+  chrome: stable
+  #To check how to match the chrome version and chromedriver version:
+
+before_install:
+  - mvn clean
+
+script:
+  - mvn verify
+
+#deploy:
+#  on:
+#    branch: feature_extentReport4
+#deploy:
+#  provider: s3
+#  access_key_id: $ACCESS_KEY
+#  secret_access_key: $SECRET_ACCESS_KEY
+#  local_dir: target/cucumber-html-reports
+#  bucket: 'errands-reports'
+#  skip_cleanup: true
+
+
+# one another method is to write a bash script for deployment
+notifications:
+  email: jeevyaballal282@gmail.com
