@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-07-12T09:15:27.624Z",
+        "start_timestamp": "2020-07-17T14:53:56.048Z",
         "line": 11,
         "name": "Test Login eith valid credentials",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2967208451,
+              "duration": 3671048345,
               "status": "passed"
             },
             "line": 4,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 2079510,
+              "duration": 1582349,
               "status": "passed"
             },
             "line": 5,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 87474051,
+              "duration": 91372216,
               "status": "passed"
             },
             "line": 6,
@@ -59,7 +59,7 @@
           },
           {
             "result": {
-              "duration": 131463437,
+              "duration": 140831655,
               "status": "passed"
             },
             "line": 7,
@@ -72,7 +72,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-07-12T09:15:30.834Z",
+        "start_timestamp": "2020-07-17T14:53:59.977Z",
         "line": 12,
         "name": "Test Login eith valid credentials",
         "description": "",
@@ -82,7 +82,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2224032899,
+              "duration": 4126949343,
               "status": "passed"
             },
             "line": 4,
@@ -94,7 +94,7 @@
           },
           {
             "result": {
-              "duration": 1220116,
+              "duration": 1068111,
               "status": "passed"
             },
             "line": 5,
@@ -116,7 +116,7 @@
           },
           {
             "result": {
-              "duration": 89460106,
+              "duration": 102210558,
               "status": "passed"
             },
             "line": 6,
@@ -128,7 +128,7 @@
           },
           {
             "result": {
-              "duration": 131482383,
+              "duration": 111694580,
               "status": "passed"
             },
             "line": 7,
@@ -141,7 +141,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-07-12T09:15:33.284Z",
+        "start_timestamp": "2020-07-17T14:54:04.323Z",
         "line": 13,
         "name": "Test Login eith valid credentials",
         "description": "",
@@ -151,7 +151,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2112325670,
+              "duration": 2102811266,
               "status": "passed"
             },
             "line": 4,
@@ -163,7 +163,7 @@
           },
           {
             "result": {
-              "duration": 1935191,
+              "duration": 1890646,
               "status": "passed"
             },
             "line": 5,
@@ -185,7 +185,7 @@
           },
           {
             "result": {
-              "duration": 109776180,
+              "duration": 108645900,
               "status": "passed"
             },
             "line": 6,
@@ -197,7 +197,7 @@
           },
           {
             "result": {
-              "duration": 114414307,
+              "duration": 113635510,
               "status": "passed"
             },
             "line": 7,

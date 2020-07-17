@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="stepdefs.RunTestRunner" time="3.211" tests="3" errors="0" skipped="0" failures="0">
+<testsuite name="stepdefs.RunTestRunner" time="3.929" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.7+8-LTS"/>
@@ -64,7 +64,7 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="Test Login eith valid credentials" classname="Test Facebook smoke scenario" time="3.211"/>
-  <testcase name="Test Login eith valid credentials" classname="Test Facebook smoke scenario" time="2.448"/>
-  <testcase name="Test Login eith valid credentials" classname="Test Facebook smoke scenario" time="2.342"/>
+  <testcase name="Test Login eith valid credentials" classname="Test Facebook smoke scenario" time="3.929"/>
+  <testcase name="Test Login eith valid credentials" classname="Test Facebook smoke scenario" time="4.344"/>
+  <testcase name="Test Login eith valid credentials" classname="Test Facebook smoke scenario" time="2.33"/>
 </testsuite>
