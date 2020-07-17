@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-07-17T15:50:59.012Z",
+        "start_timestamp": "2020-07-17T16:43:37.788Z",
         "line": 13,
         "name": "User provided valid data",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5122473903,
+              "duration": 5226127124,
               "status": "passed"
             },
             "line": 4,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 135279310,
+              "duration": 123516064,
               "status": "passed"
             },
             "line": 5,
@@ -43,7 +43,7 @@
           },
           {
             "result": {
-              "duration": 96780680,
+              "duration": 92124853,
               "status": "passed"
             },
             "line": 6,
@@ -61,7 +61,7 @@
           },
           {
             "result": {
-              "duration": 102052014,
+              "duration": 90319987,
               "status": "passed"
             },
             "line": 7,
@@ -73,7 +73,7 @@
           },
           {
             "result": {
-              "duration": 63996605,
+              "duration": 65518121,
               "status": "passed"
             },
             "line": 8,
@@ -91,7 +91,7 @@
           },
           {
             "result": {
-              "duration": 3092074316,
+              "duration": 3092925330,
               "status": "passed"
             },
             "line": 9,
@@ -103,7 +103,7 @@
           },
           {
             "result": {
-              "duration": 137818375,
+              "duration": 132792932,
               "status": "passed"
             },
             "line": 10,
