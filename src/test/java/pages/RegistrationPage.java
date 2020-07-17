@@ -21,15 +21,22 @@ public class RegistrationPage {
 
     private final WebDriverWait wait;
     // Web Elements
-    By usernameField = By.xpath("//*[@id=\'main-view\']/div/div/div[2]/div/div[5]/div[2]/div/div/input[1]");
-    By phoneField= By.xpath("//*[@id=\'main-view\']/div/div/div[2]/div/div[5]/div[2]/div/div/input[2]");
-    By passwordField = By.xpath("//*[@id=\'main-view\']/div/div/div[2]/div/div[5]/div[2]/div/div/input[3]");
-    //By locationField = By.xpath("//*[@id=\'main-view\']/div/div/div[2]/div/div[5]/div[2]/div/div/select");
-    By Registerbtn = By.xpath("//*[@id=\'main-view\']/div/div/div[2]/div/div[5]/div[2]/div/div/button");
-    By alertSuccess = By.xpath("//*[@id=\'main-view\']/div/div/div[2]/div/div[4]/div/div");
-    By alertDanger= By.xpath("//*[@id=\'main-view\']/div/div/div[2]/div/div[3]/div/div");
-    //Select dropdown= new Select((WebElement) locationField);
+//    By usernameField = By.xpath("//*[@id=\'main-view\']/div/div/div[2]/div/div[5]/div[2]/div/div/input[1]");
+//    By phoneField= By.xpath("//*[@id=\'main-view\']/div/div/div[2]/div/div[5]/div[2]/div/div/input[2]");
+//    By passwordField = By.xpath("//*[@id=\'main-view\']/div/div/div[2]/div/div[5]/div[2]/div/div/input[3]");
+//    //By locationField = By.xpath("//*[@id=\'main-view\']/div/div/div[2]/div/div[5]/div[2]/div/div/select");
+//    By Registerbtn = By.xpath("//*[@id=\'main-view\']/div/div/div[2]/div/div[5]/div[2]/div/div/button");
+//    By alertSuccess = By.xpath("//*[@id=\'main-view\']/div/div/div[2]/div/div[4]/div/div");
+//    By alertDanger= By.xpath("//*[@id=\'main-view\']/div/div/div[2]/div/div[3]/div/div");
+//    //Select dropdown= new Select((WebElement) locationField);
 
+
+    private final By usernameField = By.name("username");
+    private final By passwordField = By.name("password") ;
+    private final By phoneField= By.name("phone") ;
+    private final By Registerbtn = By.xpath("//button[contains(text(),'Register')]");
+    private final By alertSuccess = By.xpath("//*[@id=\'root\']/div/div[2]/div/div[2]/div/div[3]/div/div");
+    private final By alertDanger= By.xpath("//*[@id=\'root\']/div/div[2]/div/div[2]/div/div[2]/div/div") ;
 
     public RegistrationPage(String url, boolean headless) {
 
@@ -49,11 +56,15 @@ public class RegistrationPage {
     }
 
     public void setUsernameField(String username) {
-        webDriver.findElement(usernameField).sendKeys(username);
+
+
+        webDriver.findElements(usernameField).get(1).sendKeys(username);
     }
 
     public void setPasswordField(String password) {
-        webDriver.findElement(passwordField).sendKeys(password);
+
+
+        webDriver.findElements(passwordField).get(1).sendKeys(password);
     }
 
 
