@@ -58,7 +58,8 @@ public class RegistrationPage {
     }
 
     public void setUsernameField(String username) {
-
+        String tit=webDriver.getTitle();
+        System.out.println("++++++++++++++++++++++++++++++++++++++++++"+tit+"+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
         webDriver.findElement(usernameField).sendKeys(username);
     }
 
