@@ -50,13 +50,13 @@
 						<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></a></li>
 		</ul>
 		<!-- report name -->
-		<span class='report-name'>Grasshopper Report</span>
+		<span class='report-name'>Extent4 Report</span>
 		<!-- report headline -->
 		<span class='report-headline'></span>
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Jul 17, 2020 08:23:55 PM</span>
+			<span class='label blue darken-3 suite-start-time'>Jul 17, 2020 09:58:49 PM</span>
 			</a>
 		</ul>
 	</div>
@@ -128,7 +128,7 @@
                     <canvas id='child-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>3</span> scenario(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>1</span> scenario(s) passed</span>
                 </div>
                 <div class='block text-small'>
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> scenario(s) failed, 
@@ -144,7 +144,7 @@
                     <canvas id='grandchild-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>12</span> step(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>7</span> step(s) passed</span>
                 </div>
                 <div class='block text-small'>
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> scenario(s) failed, 
@@ -169,8 +169,8 @@
 			<ul id='test-collection' class='test-collection'>
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>Test Facebook smoke scenario</span>
-						<span class='test-time'>Jul 17, 2020 08:23:56 PM</span>
+						<span class='test-name'>Register</span>
+						<span class='test-time'>Jul 17, 2020 09:58:49 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
@@ -181,71 +181,41 @@
 	<a class="btn-floating waves-effect waves-light clear grey" title="clear"><i class='material-icons'>clear</i></a>
 </div>
 <div class='scenario outline node' test-id='2' status='pass'>
-	<span class='duration right label'>0h 0m 10s+546ms</span>
+	<span class='duration right label'>0h 0m 9s+523ms</span>
 	<div class="bdd-test">
-		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario Outline: Test Login eith valid credentials</div>
-		<table class='runtime-table table-striped table'><tr><td>username</td><td>password</td></tr><tr><td>harshb@gmail.com</td><td>harshb44@gmail</td></tr><tr><td>hello2323@rediffmail.com</td><td>hehe</td></tr><tr><td>lolol232@</td><td>lolol</td></tr></table>
+		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario Outline: User provided valid data</div>
+		<table class='runtime-table table-striped table'><tr><td>username</td><td>password</td><td>phone</td></tr><tr><td>a</td><td>a</td><td>9898989898</td></tr></table>
 	</div>
 	<ul class='steps'>
 		<li test-id='3' class='node scenario pass' status='pass'>
-			<div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Test Login eith valid credentials</div>
+			<div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>User provided valid data</div>
 			<ul class='gc steps'>
-				<li test-id='4' class='gc given pass' status='pass'>
-					<h6 class="step-name" title="facebookSteps.open_firefox_and_start_application()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given Open Firefox and start application</h6>
+				<li test-id='4' class='gc when pass' status='pass'>
+					<h6 class="step-name" title="RegistrationFeatureDefinitions.init()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When Browser is opened and site is loaded</h6>
 					<div class="node-step"></div>
 				</li>
-				<li test-id='5' class='gc when pass' status='pass'>
-					<h6 class="step-name" title="facebookSteps.i_enter_valid_and_valid(String,String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When I enter valid "harshb@gmail.com" and valid "harshb44@gmail"</h6>
+				<li test-id='5' class='gc then pass' status='pass'>
+					<h6 class="step-name" title="RegistrationFeatureDefinitions.user_inputs_username_as(String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then User inputs username as "a"</h6>
 					<div class="node-step"></div>
 				</li>
-				<li test-id='6' class='gc then pass' status='pass'>
-					<h6 class="step-name" title="facebookSteps.user_should_be_able_to_login_successfully()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then User should be able to login successfully</h6>
+				<li test-id='6' class='gc and pass' status='pass'>
+					<h6 class="step-name" title="RegistrationFeatureDefinitions.user_inputs_phone_number_as(String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And User inputs phone number as "9898989898"</h6>
 					<div class="node-step"></div>
 				</li>
-				<li test-id='7' class='gc then pass' status='pass'>
-					<h6 class="step-name" title="facebookSteps.theBrowserWillClose()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then The browser will close</h6>
+				<li test-id='7' class='gc and pass' status='pass'>
+					<h6 class="step-name" title="RegistrationFeatureDefinitions.user_inputs_location()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And User inputs location</h6>
 					<div class="node-step"></div>
 				</li>
-			</ul>
-		</li>
-		<li test-id='8' class='node scenario pass' status='pass'>
-			<div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Test Login eith valid credentials</div>
-			<ul class='gc steps'>
-				<li test-id='9' class='gc given pass' status='pass'>
-					<h6 class="step-name" title="facebookSteps.open_firefox_and_start_application()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given Open Firefox and start application</h6>
+				<li test-id='8' class='gc and pass' status='pass'>
+					<h6 class="step-name" title="RegistrationFeatureDefinitions.user_inputs_password_as(String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And User inputs password as "a"</h6>
 					<div class="node-step"></div>
 				</li>
-				<li test-id='10' class='gc when pass' status='pass'>
-					<h6 class="step-name" title="facebookSteps.i_enter_valid_and_valid(String,String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When I enter valid "hello2323@rediffmail.com" and valid "hehe"</h6>
+				<li test-id='9' class='gc then pass' status='pass'>
+					<h6 class="step-name" title="RegistrationFeatureDefinitions.press_register_button()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Press Register button</h6>
 					<div class="node-step"></div>
 				</li>
-				<li test-id='11' class='gc then pass' status='pass'>
-					<h6 class="step-name" title="facebookSteps.user_should_be_able_to_login_successfully()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then User should be able to login successfully</h6>
-					<div class="node-step"></div>
-				</li>
-				<li test-id='12' class='gc then pass' status='pass'>
-					<h6 class="step-name" title="facebookSteps.theBrowserWillClose()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then The browser will close</h6>
-					<div class="node-step"></div>
-				</li>
-			</ul>
-		</li>
-		<li test-id='13' class='node scenario pass' status='pass'>
-			<div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Test Login eith valid credentials</div>
-			<ul class='gc steps'>
-				<li test-id='14' class='gc given pass' status='pass'>
-					<h6 class="step-name" title="facebookSteps.open_firefox_and_start_application()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given Open Firefox and start application</h6>
-					<div class="node-step"></div>
-				</li>
-				<li test-id='15' class='gc when pass' status='pass'>
-					<h6 class="step-name" title="facebookSteps.i_enter_valid_and_valid(String,String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When I enter valid "lolol232@" and valid "lolol"</h6>
-					<div class="node-step"></div>
-				</li>
-				<li test-id='16' class='gc then pass' status='pass'>
-					<h6 class="step-name" title="facebookSteps.user_should_be_able_to_login_successfully()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then User should be able to login successfully</h6>
-					<div class="node-step"></div>
-				</li>
-				<li test-id='17' class='gc then pass' status='pass'>
-					<h6 class="step-name" title="facebookSteps.theBrowserWillClose()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then The browser will close</h6>
+				<li test-id='10' class='gc then pass' status='pass'>
+					<h6 class="step-name" title="RegistrationFeatureDefinitions.usernameShouldLoadOnPage()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then Username should load on page</h6>
 					<div class="node-step"></div>
 				</li>
 			</ul>
@@ -288,31 +258,31 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Scenarios
-					<div class='panel-lead'>3</div>
+					<div class='panel-lead'>1</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>12</div>
+					<div class='panel-lead'>7</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Jul 17, 2020 08:23:55 PM</div>
+					<div class='panel-lead'>Jul 17, 2020 09:58:49 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Jul 17, 2020 08:24:06 PM</div>
+			 		<div class='panel-lead'>Jul 17, 2020 09:58:59 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 0m 10s+997ms</div>
+					<div class='panel-lead'>0h 0m 10s+13ms</div>
 				</div>
 			</div>
 		</div>
@@ -331,8 +301,8 @@
 				warningParent: 0,
 				skipParent: 0,
 				exceptionsParent: 0,
-				childCount: 3,
-				passChild: 3,
+				childCount: 1,
+				passChild: 1,
 				failChild: 0,
 				fatalChild: 0,
 				errorChild: 0,
@@ -341,8 +311,8 @@
 				infoChild: 0,
 				debugChild: 0,
 				exceptionsChild: 0,
-				grandChildCount: 12,
-				passGrandChild: 12,
+				grandChildCount: 7,
+				passGrandChild: 7,
 				failGrandChild: 0,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
@@ -355,7 +325,7 @@
 		</script>
 		<script>
 			var timeline = {
-			        "Test Facebook smoke scenario":10.546
+			        "Register":9.523
 			};
 		</script>
 	

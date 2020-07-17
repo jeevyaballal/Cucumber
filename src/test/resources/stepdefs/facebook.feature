@@ -1,5 +1,6 @@
 Feature:Test Facebook smoke scenario
 
+  @Sanity
   Scenario Outline: Test Login eith valid credentials
     Given Open Firefox and start application
     When I enter valid "<username>" and valid "<password>"
@@ -8,6 +9,5 @@ Feature:Test Facebook smoke scenario
 
     Examples:
       |username |password |
-      |harshb@gmail.com | harshb44@gmail |
-      | hello2323@rediffmail.com| hehe     |
-      | lolol232@      | lolol    |
+      | jeevya      | jeevya    |
+      | geeta     | geeta    |
