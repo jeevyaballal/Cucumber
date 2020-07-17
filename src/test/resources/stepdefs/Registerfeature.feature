@@ -10,7 +10,7 @@ Feature: Register
     Then Username should load on page
     Examples:
       | username | password | phone |
-      | a  | a | 9898989898 |
+      | abc  | abc | 9898989888 |
 
 
 #  Scenario Outline: User provides invalid credentials
