@@ -24,6 +24,8 @@ deploy:
   #local_dir: test-output/HtmlReport
   bucket: 'jeevya-erand'
   skip_cleanup: true
+  on:
+    branch: feature_extentReport4
 #deploy:
 #  on:
 #    branch: feature_extentReport4
